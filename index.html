@@ -69,7 +69,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "editora-precificacao-livros", "titulo": "Precificação Inteligente de Livros", "vertical": "Editoras", "descricao": "Precificação dinâmica e otimizada de livros e e-books com ML. Calcula o preço que maximiza receita por título e canal, considerando elasticidade, concorrência e sazonalidade.", "ia": ["ML", "Price Elasticity", "Optimization"], "demo": "forecast", "fonte": "Vendas + concorrência + CBL", "fonteUrl": "https://www.cbl.org.br", "kpis": [{"label": "Receita", "value": "+16%", "delta": "+16%"}, {"label": "Margem", "value": "+4.2pp", "delta": ""}, {"label": "Elasticidade", "value": "modelada", "delta": ""}, {"label": "Canais", "value": "6", "delta": ""}], "chartType": "line", "chartLabel": "Curva de Receita x Preço", "series": [41.1, 41.3, 34.4, 37.3, 34.7, 42.3, 43.7, 53.8, 55.3, 63.3, 60.9, 64.1, 57.4, 49.7, 50.1, 43.9, 47.8, 46.2, 54.7, 56.5, 66.5, 67.5, 74.5, 71.1], "features": ["Elasticidade-preço por título", "Preço ótimo por canal", "Estratégia de e-book vs físico", "Promoções inteligentes", "Monitor de concorrência"], "color": "#0ea5e9", "icon": "📚", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados", "criado": "22/09/2023", "criadoISO": "2023-09-22"};
 const {useState,useEffect,useRef,useMemo}=React;
